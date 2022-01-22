@@ -1,15 +1,18 @@
 import React, { useState } from "react";
-import UrlInput from "./UrlInput";
-import UrlEntry from "./UrlEntry";
+import UrlInputs from "./UrlInputs";
 
 function UrlContainer() {
-  const [count, setCount] = useState(0);
+  const [url, setUrl] = useState("");
+  const [slug, setSlug] = useState("");
+
+  const generateLink = () => {
+    console.log("generate link");
+  };
 
   return (
-    <div class="container">
+    <div>
       <h1>URL Container</h1>
-      <UrlInput />
-      <UrlEntry />
+      <UrlInputs url={url} slug={slug} generateLink={generateLink} />
     </div>
   );
 }
