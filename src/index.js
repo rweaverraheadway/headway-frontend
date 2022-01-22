@@ -8,18 +8,12 @@ import {
   gql
 } from "@apollo/client";
 
+import App from "./App";
+
 const client = new ApolloClient({
   uri: "https://20rwt.sse.codesandbox.io/",
   cache: new InMemoryCache()
 });
-
-function App() {
-  return (
-    <div>
-      <h2>URL Shortener</h2>
-    </div>
-  );
-}
 
 render(
   <ApolloProvider client={client}>

@@ -1,7 +1,7 @@
 {
-  "name": "get-started-coinbase-client",
+  "name": "headway-frontend",
   "version": "1.0.0",
-  "description": "From the \"Get started\" section of the Apollo Client docs.",
+  "description": "",
   "keywords": [],
   "homepage": "https://codesandbox.io/s/new",
   "main": "src/index.js",
@@ -9,6 +9,7 @@
     "@apollo/client": "3.3.19",
     "graphql": "15.8.0",
     "react": "16.13.0",
+    "react-bootstrap": "2.1.1",
     "react-dom": "16.13.0",
     "react-scripts": "3.4.0"
   },
